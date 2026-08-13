@@ -19,5 +19,4 @@ constconst perguntas = [
         "Alternativa 2"
     ]
  }  
-  
-]
+];

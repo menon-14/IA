@@ -113,11 +113,8 @@ function mostraAlternativas() {
 
     botaoAlternativa.textContent = alternativa.texto;
 
-    botaoAlternativa.addEventListener("click", function () {
-      atual++;
-      mostraPergunta();
-    });
-
+    botaoAlternativa.addEventListener("click", () => respotaSelecionada(alternativa))
+    
     caixaAlternativas.appendChild(botaoAlternativa);
   }
 }
@@ -129,6 +126,13 @@ function mostraResultado() {
   caixaResultado.style.display = "block";
   textoResultado.textContent =
     "Você concluiu o quiz sobre Inteligência Artificial!";
+}
+
+function respostaSelecionada(opcaoSelecionada){
+  const afirmacoes = opcaoSelecionada.afirmacoes;
+  historiaFinal = afirmacoes;
+  atual++;
+  mostraPergunta();
 }
 
 mostraPergunta();

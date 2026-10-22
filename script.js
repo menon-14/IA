@@ -12,14 +12,12 @@ const perguntas = [
                 texto: "Isso é assustador!",
                 afirmacao:  [
                 "afirmacao" 
-                ""
             ]
             },
             {
                 texto: "Isso é maravilhoso!",
                 afirmacao: [
                     "afirmacao"
-                    ""
                 ]
             }           
             
@@ -32,14 +30,12 @@ const perguntas = [
                 texto:"Utilizar uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento",
                 afirmacao:[
                     "afirmacao"
-                    ""
                 ]
             },
             {
                 texto: "Escrever o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
                 afirmacao:[
                     "afirmacao"
-                    ""
                 ]
                 }
         ]
@@ -51,7 +47,6 @@ const perguntas = [
                 texto:"Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
                 afirmacao:[
                     "afirmacao"
-                    ""
                 ]
             },
             {
